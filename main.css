@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    padding-top: 46px;
+}
+.container{
+    max-width: 1180px;
+    width: 100%;
+    margin: 0 auto;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__lits{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+.header__link{
+    color: rgb(31, 21, 52);
+    font-family: "Mulish";
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 23px;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+.header__link:hover{
+    color: red;
+}
+.hero{
+    padding: 91px 0;
+}
+.texbox{
+    width: 440px;
+}
+.hero__title{
+    color: rgb(0, 0, 0);
+    font-family: Mulish;
+    font-size: 48px;
+    font-weight: 200;
+    line-height: 56px;
+    letter-spacing: 0%;
+}
+.hero__text{
+    color: rgb(125, 121, 135);
+    font-family: "Mulish";
+    font-size: 21px;
+    font-weight: 200;
+    line-height: 32px;
+    margin: 35.09px 0;
+}
+.hero__btn{
+    border-radius: 55px;
+    border: none;
+width: 197px;
+padding: 10px;
+color: white;
+background: rgb(69, 143, 246);
+transition: 0.9s ease-in-out;
+}
+.hero__btn:hover{
+    background-color: black;
+
+}
+.wrapper{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.hero1{
+padding-bottom: 50px;
+}
+.h2{
+    color: rgb(0, 0, 0);
+font-family: Mulish;
+font-size: 36px;
+font-weight: 200;
+line-height: 56px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.p{
+    color: rgb(125, 121, 135);
+font-family: Mulish;
+font-size: 18px;
+font-weight: 200;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+width: 952px;
+margin: 0 auto;
+margin-top: 61px;
+margin-bottom: 36px;
+}
+.bola{
+    width: 380px;
+    border-radius: 20px;
+padding: 68px 58px 28px 41px;
+/* drop shadow */
+box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+background: rgb(231, 231, 231);
+}
+.h3{
+    color: #000000;
+font-family: Mulish;
+font-size: 24px;
+font-weight: 200;
+line-height: 56px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 40px;
+margin-bottom: 10px;
+}
+.hero__text{
+    color: rgb(125, 121, 135);
+font-family: Mulish;
+font-size: 16px;
+font-weight: 200;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+}
+.ota{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.texbox button{
+    width: 300px;
+    
+
+}
+
+.texbox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.h33{
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    font-family: Mulish;
+margin-top: 76.dpx;
+padding: 92PX;
+
+}
